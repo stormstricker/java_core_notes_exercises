@@ -1,4 +1,10 @@
+# PROBLEM
+
+![6.8 case study, pg 241](/arrays/img/problems/ch_occurences_1.PNG)
+
 ```java
+
+// risbah-solution
 public static void main(String[] arg){
         // random alphabet array
         Random random = new Random();
@@ -6,10 +12,10 @@ public static void main(String[] arg){
         for(int i=0; i<abc.length; i++){
             abc[i] = (char)(random.nextInt(26) + 97);
         }
-        
+
         // Alphabet array that counts each occurence of letters in random alphabet array
         // Goes from 0-26 because there are 26 letters in English alphabet (so 0 is a, 1 is b, and so on)
-        int[] abcCounter = new int[26];       
+        int[] abcCounter = new int[26];
         for(int i=0; i<abcCounter.length; i++){
             int counter = 1;
             for(int j=0; j<abc.length; j++){
@@ -19,13 +25,18 @@ public static void main(String[] arg){
                 }
             }
         }
-        
+
         // Print Array; Program output
         for(int i=0; i<abcCounter.length; i++){
             char charInt = (char)(i+97);
             System.out.println(charInt + " - " + abcCounter[i]);
         }
         System.out.println("Here are the random letters: ");
-        System.out.println(abc);   
-    } 
+        System.out.println(abc);
+    }
 ```
+
+## BOOK SOLUTION
+
+![book solution](/arrays/img/problems/ch_occurences_2.PNG)
+![book solution](/arrays/img/problems/ch_occurences_3.PNG)
