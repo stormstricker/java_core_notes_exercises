@@ -2,6 +2,13 @@
 
 ![6.8 case study, pg 241](/arrays/img/problems/ch_occurences_1.PNG)
 
+## BOOK SOLUTION
+
+![book solution](/arrays/img/problems/ch_occurences_2.PNG)
+![book solution](/arrays/img/problems/ch_occurences_3.PNG)
+
+### Risbah solution (to track my own progress)
+
 ```java
 
 // risbah-solution
@@ -35,8 +42,3 @@ public static void main(String[] arg){
         System.out.println(abc);
     }
 ```
-
-## BOOK SOLUTION
-
-![book solution](/arrays/img/problems/ch_occurences_2.PNG)
-![book solution](/arrays/img/problems/ch_occurences_3.PNG)
